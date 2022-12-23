@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="container">
+
+            <form action="" name="myForm" onsubmit="return validate()" novalidate>
+                <h2>
+                    <p>Sign Up</p>
+                </h2>
+                <div class="row">
+                    <label for="lname">Lastname:</label>
+                    <input type="text" id="lname" name="lname" required>
+                    <span id="Lname"></span>
+                </div>
+                <div class="row">
+                    <label for="fname">Firstname:</label>
+                    <input type="text" id="fname" name="fname" required>
+                    <span id="Fname"></span>
+
+                </div>
+                <div class="row">
+                    <label for="mail">Email:</label>
+                    <input type="email" id="mail" name="email" required>
+                    <span id="Email"></span>
+
+                </div>
+                <div class="row">
+                    <label for="pwd">Password:</label>
+                    <input type="password" name="password1" id="pwd" required>
+                    <span id="Pass"></span>
+
+                </div>
+                <div class="row">
+                    <label for="pwd2">Password:</label>
+                    <input type="password" name="password2" id="pwd2" required>
+                    <span id="Pass2"></span>
+                </div>
+                <div class="btn">
+                    <input type="submit" value="Send">
+                </div>
+            </form>
+
+        </div>
+
+
+        <script src="script.js"></script>
+    </body>
+</html>
