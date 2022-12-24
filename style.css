@@ -14,6 +14,7 @@ body{
     background-color: #1a1b19;
     margin: auto;
     padding: 1rem;
+    min-height: 100vh;
 
 
 }
@@ -73,9 +74,6 @@ input[type=submit]:hover {
     color: #1155e9;
 }
 @media screen and (min-width: 768px) {
-    .container {
-        min-height: 100vh;
-    }
     form {
         min-width: 767px;
         width: 50%;
